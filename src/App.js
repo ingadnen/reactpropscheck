@@ -27,7 +27,7 @@ const App = () =>{
   <header>
   
       <ProfileComponent   myUser={users}>
-        <img onClick={() =>handleName ()} src={imageinsrc} alt="image"/>
+        <img onClick={() =>handleName ()} src={imageinsrc} alt="im"/>
       </ProfileComponent>
 
   </header>
@@ -38,19 +38,19 @@ const App = () =>{
   
     <li>
       <a href="https://fr-fr.facebook.com/rebhiadnen">
-        <img src={facebook}/>
+        <img src={facebook} alt="f"/>
       </a>
     </li>
     
    <li>
       <a href="https://www.codewars.com/users/adnrbh">
-        <img src="https://www.codewars.com/assets/logos/logo-61192cf7c75904d495e7ad69695fbf0bffd965bc3e17ac60f6c6b475304db09d.svg"/>
+        <img src="https://www.codewars.com/assets/logos/logo-61192cf7c75904d495e7ad69695fbf0bffd965bc3e17ac60f6c6b475304db09d.svg" alt="cdw"/>
       </a>
     </li>
 
     <li>
       <a href="https://github.com/ingadnen">
-        <img src={github}/>
+        <img src={github} alt="git"/>
       </a>
     </li>
     
